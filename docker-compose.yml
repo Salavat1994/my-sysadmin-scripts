@@ -1,0 +1,9 @@
+services:
+
+  monitor:
+
+    build: .
+
+    image: my-script:latest
+
+    container_name: my-script-compose
